@@ -372,4 +372,39 @@
         <priority>0.8</priority>
     </url>
 
+    <url>
+        <loc>https://mirakmalsulton.github.io/notes/2019/08/19/mysqli_connect-example.html</loc>
+        <lastmod>2019-08-19</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://mirakmalsulton.github.io/notes/2019/08/19/php-exec-example.html</loc>
+        <lastmod>2019-08-19</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://mirakmalsulton.github.io/notes/2019/08/19/php-fopen-example.html</loc>
+        <lastmod>2019-08-19</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://mirakmalsulton.github.io/notes/2019/08/19/php-preg_match-examples.html</loc>
+        <lastmod>2019-08-19</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://mirakmalsulton.github.io/notes/2019/08/19/php-preg_replace-examples.html</loc>
+        <lastmod>2019-08-19</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
 </urlset>
