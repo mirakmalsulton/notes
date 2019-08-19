@@ -11,7 +11,7 @@ $replacement = '${1} 3, 2020';
 echo preg_replace($pattern, $replacement, $string);
 // output
 // May 3, 2020
-```php
+```
 
 
 ```php
