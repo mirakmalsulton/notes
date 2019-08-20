@@ -7,7 +7,8 @@ title: PHP - json decode example
 json to object
 ```php
 $json = '{"a":1,"b":2,"c":[1,2]}';
-print_r(json_decode($json));
+$out = json_decode($json);
+print_r($out);
 // output
 // stdClass Object
 // (
@@ -24,7 +25,8 @@ print_r(json_decode($json));
 json to array
 ```php
 $json = '{"a":1,"b":2,"c":[1,2]}';
-print_r(json_decode($json, true));
+$out = json_decode($json, true);
+print_r($out);
 // output
 // Array
 // (
