@@ -6,6 +6,9 @@ title: PHP - send email example
 
 <ul>
     <li>
+        install <b>composer</b> if doesn't already exists
+    </li>
+    <li>
         Install phpmailer library with command - <b>composer require phpmailer/phpmailer</b>
     </li>
     <li>
