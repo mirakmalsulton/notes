@@ -9,7 +9,7 @@ title: PHP - send mail using gmail smtp
         Go to the https://myaccount.google.com/lesssecureapps and enable "Allow less secure apps"
     </li>
     <li>
-        install <b>composer</b> if doesn't already exists
+        Install <b>composer</b> if doesn't already exists
     </li>
     <li>
         Install phpmailer library with command - <b>composer require phpmailer/phpmailer</b>
