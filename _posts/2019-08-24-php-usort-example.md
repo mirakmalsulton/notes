@@ -27,4 +27,6 @@ print_r($array);
 ```
 
 Visual representation on how it works
-<img src="{{ site.baseurl }}/images/php_usort.gif">
+<div>
+    <img src="{{ site.baseurl }}/images/php_usort.gif" border="1">
+</div>
