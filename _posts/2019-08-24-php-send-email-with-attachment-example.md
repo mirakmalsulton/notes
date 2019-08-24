@@ -21,7 +21,7 @@ $email = new PHPMailer(true);
 try {
     $email->Subject = 'Cartoon';
     $email->Body = 'Hello Tom!.';
-    $email->AddAttachment('path/to/file.txt', 'fileName.txt');
+    $email->AddAttachment('path/to/file.pdf', 'fileName.pdf');
     $email->setFrom('yourmail@gmail.com', 'Jerry');
     $email->addAddress('clientmail@mail.ru', 'Tom');
     $email->send();
