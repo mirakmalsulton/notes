@@ -28,5 +28,5 @@ print_r($array);
 
 Visual representation on how it works
 <div>
-    <img src="{{ site.baseurl }}/images/php_usort.gif" style="border: 1px solid #888" alt="How does usort work">
+    <img src="{{ site.baseurl }}/images/php_usort.gif" style="border: 1px solid #ddd" alt="How does usort work">
 </div>
