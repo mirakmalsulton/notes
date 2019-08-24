@@ -2,6 +2,8 @@
 title: PHP - move_uploaded_file example
 ---
 
+<link rel="canonical" href="{{ post.url }}"/>
+
 <h1 class="header">PHP - move_uploaded_file example</h1>
 
 
