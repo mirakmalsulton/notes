@@ -17,7 +17,7 @@ git pull origin master
 
 Graphical representation for beginners
 <div>
-    <img src="{{ site.baseurl }}/images/difference-between-git-fetch-and-git-pull"
+    <img src="{{ site.baseurl }}/images/difference-between-git-fetch-and-git-pull.png"
     style="border: 1px solid #ddd"
     alt="difference between git fetch and git pull">
 </div>
