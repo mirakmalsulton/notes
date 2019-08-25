@@ -4,8 +4,6 @@ title: PHP - config file location
 
 <h1 class="header">PHP - config file location</h1>
 
-Configuration file can be located in several different areas
-
 <h3>Method 1</h3>
 
 Create info.php with code above and open the file in your browser
