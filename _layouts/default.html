@@ -11,6 +11,7 @@
 </head>
 
 <body>
+<span>{{ page.url | remove: '.html' | prepend: site.baseurl }}</span>
 
 <div class="container">
 
