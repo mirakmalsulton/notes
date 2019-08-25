@@ -15,13 +15,12 @@ phpinfo();
 ```
 
 You will see the path to the php.ini like in the following screenshot
-```html
 <div>
     <img src="{{ site.baseurl }}/images/php-config-file-location.png"
     style="border: 1px solid #ddd"
     alt="php config file location">
 </div>
-```
+
 
 <h3>Method 2</h3>
 
