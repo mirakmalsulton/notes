@@ -4,7 +4,7 @@ title: PHP - config file location
 
 <h1 class="header">PHP - config file location</h1>
 
-php.ini can be located in several different areas
+Configuration file can be located in several different areas
 
 <h3>Method 1</h3>
 
