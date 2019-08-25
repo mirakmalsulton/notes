@@ -14,3 +14,10 @@ git pull downloads new data from a remote repository and merges it
 ```code
 git pull origin master
 ```
+
+Graphical representation for beginners
+<div>
+    <img src="{{ site.baseurl }}/images/difference-between-git-fetch-and-git-pull"
+    style="border: 1px solid #ddd"
+    alt="difference between git fetch and git pull">
+</div>
