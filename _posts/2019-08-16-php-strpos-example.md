@@ -13,5 +13,6 @@ $post = strpos($string, 'o'); // $pos = 4
 
 ignoring anything before the offset
 ```php
+$string = 'hello world';
 $post = strpos($string, 'o', 5); // $pos = 7
 ```
