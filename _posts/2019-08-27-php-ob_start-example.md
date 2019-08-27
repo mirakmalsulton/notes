@@ -19,7 +19,7 @@ echo 'Hello ' . $output;
 ob_start();
 echo("Hello world!");
 $output = ob_get_contents();
-ob_end_flush();
+ob_end_flush(); // print internal buffer content
 // output
 // Hello world!
 ```
