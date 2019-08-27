@@ -1,0 +1,29 @@
+---
+title: PHP - recursive function example
+---
+
+<h1 class="header">PHP - recursive function example</h1>
+
+<div>A recursive function is a function that calls itself.</div>
+
+```php
+/**
+ * Use with care!
+ * Recursively delete a file or directory.
+ * @param string $path
+ */
+function rRmDir($path)
+{
+    if (is_dir($path)) {
+        foreach (scandir($path) as $entry) {
+            if (!in_array($entry, ['.', '..'])) {
+                rRmDir($path . DIRECTORY_SEPARATOR . $entry); // calls itself
+            }
+        }
+        rmdir($path);
+    }
+    if (is_file($path)) unlink($path);
+}
+
+rRmDir('/path/to/dir');
+```
