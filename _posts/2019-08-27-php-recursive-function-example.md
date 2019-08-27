@@ -4,7 +4,9 @@ title: PHP - recursive function example
 
 <h1 class="header">PHP - recursive function example</h1>
 
-<div>A recursive function is a function that calls itself.</div>
+<div style="color:#555;margin-bottom:30px;">
+    A recursive function is a function that calls itself.
+</div>
 
 ```php
 /**

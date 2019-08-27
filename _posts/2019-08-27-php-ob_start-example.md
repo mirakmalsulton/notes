@@ -4,6 +4,7 @@ title: PHP - ob_start example
 
 <h1 class="header">PHP - ob_start example</h1>
 
+Example 1
 ```php
 ob_start(); // captures the output and save it in an internal buffer
 echo("world!"); // "world!" saved in internal buffer
@@ -15,6 +16,7 @@ echo 'Hello ' . $output;
 ```
 
 
+Example 2
 ```php
 ob_start();
 echo("Hello world!");
