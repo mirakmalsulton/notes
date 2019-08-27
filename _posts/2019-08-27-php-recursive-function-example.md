@@ -12,12 +12,12 @@ title: PHP - recursive function example
  * Recursively delete a file or directory.
  * @param string $path
  */
-function rRmDir($path)
+function recursiveRemove($path)
 {
     if (is_dir($path)) {
         foreach (scandir($path) as $entry) {
             if (!in_array($entry, ['.', '..'])) {
-                rRmDir($path . DIRECTORY_SEPARATOR . $entry); // calls itself
+                recursiveRemove($path . DIRECTORY_SEPARATOR . $entry); // calls itself
             }
         }
         rmdir($path);
@@ -25,5 +25,5 @@ function rRmDir($path)
     if (is_file($path)) unlink($path);
 }
 
-rRmDir('/path/to/dir');
+recursiveRemove('/path/to/dir');
 ```
