@@ -6,7 +6,7 @@ title: PHP - ob_start example
 
 ```php
 ob_start(); // captures the output and save it in an internal buffer
-echo("world!"); // output saved in internal buffer
+echo("world!"); // "world!" saved in internal buffer
 $output = ob_get_contents(); // save in a variable internal buffer content
 ob_end_clean(); // clean internal buffer
 echo 'Hello ' . $output;
