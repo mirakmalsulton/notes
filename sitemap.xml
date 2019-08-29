@@ -526,4 +526,11 @@
         <priority>0.8</priority>
     </url>
 
+    <url>
+        <loc>https://mirakmalsulton.github.io/notes/2019/08/29/php-file_get_contents-example</loc>
+        <lastmod>2019-08-29</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
 </urlset>
