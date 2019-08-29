@@ -5,7 +5,7 @@ title: PHP - spl_autoload_register example
 <h1 class="header">PHP - spl_autoload_register example</h1>
 
 <div style="color:#555;margin-bottom:30px;">
-    spl_autoload_register automatically loads classes.<br>
+    <b>spl_autoload_register</b> automatically loads classes.<br>
     Once write autoloader function that parses file path from class namespace and<br>
     You will never have to include every php files manually with functions like "require".
 </div>
