@@ -18,4 +18,6 @@ function myAutoLoader($className) {
 }
 
 spl_autoload_register('myAutoLoader');
+
+$db = new \models\db\DbConnection();
 ```
