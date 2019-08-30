@@ -561,4 +561,11 @@
         <priority>0.8</priority>
     </url>
 
+    <url>
+        <loc>https://mirakmalsulton.github.io/notes/2019/08/30/yii2-activeform</loc>
+        <lastmod>2019-08-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
 </urlset>
