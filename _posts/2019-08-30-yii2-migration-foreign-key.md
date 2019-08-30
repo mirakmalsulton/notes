@@ -1,11 +1,11 @@
 ---
-title: Yii2 - andFilterWhere
+title: Yii2 - migration foreign key
 ---
 
-<h1 class="header">Yii2 - andFilterWhere</h1>
+<h1 class="header">Yii2 - migration foreign key</h1>
 
 <div style="color:#555;margin-bottom:30px;">
-    A FOREIGN KEY is a key used to link two tables together.
+    A <b>FOREIGN KEY</b> is a key used to link two tables together.
 </div>
 
 
