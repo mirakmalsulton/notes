@@ -1,8 +1,8 @@
 ---
-title: PHP - round up and round down example
+title: PHP - ceil() - round up, floor() - round down example
 ---
 
-<h1 class="header">PHP - round up and round down example</h1>
+<h1 class="header">PHP - ceil() - round up, floor() - round down example</h1>
 
 
 <b>ceil</b> - Round numbers up
