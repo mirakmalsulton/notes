@@ -5,19 +5,30 @@ title: PHP - get current date, add years/months/days
 <h1 class="header">PHP - get current date, add years/months/days</h1>
 
 
+<b>get current datetime</b>
 ```php
 $dateTime = new \DateTime('now', new \DateTimeZone('Europe/Dublin'));
-
-//get current datetime
 echo $dateTime->format('Y-m-d H:i:s');
+```
 
-//get current year
+
+<b>get current year</b>
+```php
+$dateTime = new \DateTime('now', new \DateTimeZone('Europe/Dublin'));
 echo $dateTime->format('Y');
+```
 
-//get current month
+
+<b>get current month</b>
+```php
+$dateTime = new \DateTime('now', new \DateTimeZone('Europe/Dublin'));
 echo $dateTime->format('m');
+```
 
-//get current day
+
+<b>get current day</b>
+```php
+$dateTime = new \DateTime('now', new \DateTimeZone('Europe/Dublin'));
 echo $dateTime->format('d');
 ```
 
