@@ -15,7 +15,7 @@ echo ceil(-1.23) . PHP_EOL;  // -1
 
 <b>floor</b> - Round numbers down
 ```php
-echo floor(3.2);   //  3
-echo floor(6.99);  //  6
-echo floor(-2.12); // -3
+echo floor(3.2) . PHP_EOL;   //  3
+echo floor(6.99) . PHP_EOL;  //  6
+echo floor(-2.12) . PHP_EOL; // -3
 ```
