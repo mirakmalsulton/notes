@@ -12,28 +12,28 @@ echo $dateTime->format('Y-m-d H:i:s');
 ```
 
 
-<h4>get current year</h4>
+<h5>get current year</h5>
 ```php
 $dateTime = new \DateTime('now', new \DateTimeZone('Europe/Dublin'));
 echo $dateTime->format('Y');
 ```
 
 
-get current month
+<h5>get current month</h5>
 ```php
 $dateTime = new \DateTime('now', new \DateTimeZone('Europe/Dublin'));
 echo $dateTime->format('m');
 ```
 
 
-get current day
+<h5>get current day</h5>
 ```php
 $dateTime = new \DateTime('now', new \DateTimeZone('Europe/Dublin'));
 echo $dateTime->format('d');
 ```
 
 
-add years to date
+<h5>add years to date</h5>
 ```php
 $dateTime = new \DateTime('2019-09-01 11:12:13', new \DateTimeZone('Europe/Dublin'));
 $dateTime->modify('+3 year');
@@ -41,7 +41,7 @@ echo $dateTime->format('Y-m-d H:i:s');
 ```
 
 
-add months to date
+<h5>add months to date</h5>
 ```php
 $dateTime = new \DateTime('2019-09-01 11:12:13', new \DateTimeZone('Europe/Dublin'));
 $dateTime->modify('+3 month');
@@ -49,7 +49,7 @@ echo $dateTime->format('Y-m-d H:i:s');
 ```
 
 
-add days to date
+<h5>add days to date</h5>
 ```php
 $dateTime = new \DateTime('2019-09-01 11:12:13', new \DateTimeZone('Europe/Dublin'));
 $dateTime->modify('+3 day');
