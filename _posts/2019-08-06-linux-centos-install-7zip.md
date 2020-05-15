@@ -10,6 +10,7 @@ sudo yum install p7zip p7zip-plugins
 
 <hr>
 
+<h3>Related posts:</h3>
 <div style="margin-top:200px;">
     <ul>
         <li>
