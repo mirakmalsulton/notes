@@ -11,7 +11,7 @@ sudo yum install p7zip p7zip-plugins
 <hr>
 
 
-<div style="margin-top:200px;">
+<div class="related_posts_block">
     <h3>Related posts:</h3>
 
     <ul>

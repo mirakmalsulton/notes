@@ -1,0 +1,9 @@
+.related_posts_block {
+    margin-top: 200px
+}
+
+.related_posts_block ul {
+    margin: 0;
+    padding:  0;
+    list-style: none;
+}
