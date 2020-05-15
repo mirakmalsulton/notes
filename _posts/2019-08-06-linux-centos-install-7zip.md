@@ -7,7 +7,9 @@ title: Linux - Centos install 7zip
 ```code
 sudo yum install p7zip p7zip-plugins
 ```
-
-<ul>
-    <li>gfdgfgf</li>
-<ul>
+<hr>
+<div style="margin-top:200px;">
+    <ul>
+        <li>gfdgfgf</li>
+    <ul>
+</div>
