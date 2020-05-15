@@ -8,8 +8,6 @@ title: Linux - Centos install 7zip
 sudo yum install p7zip p7zip-plugins
 ```
 
-<hr>
-
 
 <div class="related_posts_block">
     <h3>Related posts:</h3>
