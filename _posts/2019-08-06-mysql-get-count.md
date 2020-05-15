@@ -14,28 +14,28 @@ SELECT COUNT(*) AS 'count' FROM `post`;
 
     <ul>
         <li>
-            <a href="https://mirakmalsulton.github.io/notes/2019/08/06/linux-centos-install-7zip">
-                linux centos install 7zip
+            <a href="https://mirakmalsulton.github.io/notes/2019/08/06/mysql-get-count">
+                mysql get count
             </a>
         </li>
         <li>
-            <a href="https://mirakmalsulton.github.io/notes/2019/08/06/linux-chmod-command">
-                linux chmod command
+            <a href="https://mirakmalsulton.github.io/notes/2019/08/07/mysql-dump-database">
+                mysql dump database
             </a>
         </li>
         <li>
-            <a href="https://mirakmalsulton.github.io/notes/2019/08/06/linux-if-dir-not-exists-create">
-                linux if dir not exists create
+            <a href="https://mirakmalsulton.github.io/notes/2019/08/08/mysql-show-users">
+                mysql show users
             </a>
         </li>
         <li>
-            <a href="https://mirakmalsulton.github.io/notes/2019/08/06/linux-ls-hidden-files">
-                linux ls hidden files
+            <a href="https://mirakmalsulton.github.io/notes/2019/08/09/mysql-drop-database">
+                mysql drop database
             </a>
         </li>
         <li>
-            <a href="https://mirakmalsulton.github.io/notes/2019/08/07/linux-copy-folders-with-files">
-                linux copy folders with files
+            <a href="https://mirakmalsulton.github.io/notes/2019/08/10/sql-foreign-key-example">
+                sql foreign key example
             </a>
         </li>
     </ul>
