@@ -10,8 +10,10 @@ sudo yum install p7zip p7zip-plugins
 
 <hr>
 
-<h3>Related posts:</h3>
+
 <div style="margin-top:200px;">
+    <h3>Related posts:</h3>
+
     <ul>
         <li>
             <a href="https://mirakmalsulton.github.io/notes/2019/08/06/linux-chmod-command">
