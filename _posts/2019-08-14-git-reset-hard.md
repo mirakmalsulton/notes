@@ -18,3 +18,16 @@ example 2 (revert to a previous commit)
 ```code
 git reset --hard HEAD
 ```
+
+
+<div class="related_posts_block">
+    <h3>Related posts:</h3>
+
+    <ul>
+        <li>
+            <a href="https://mirakmalsulton.github.io/notes/2019/08/14/git-show-diff">
+                git show diff
+            </a>
+        </li>
+    </ul>
+</div>

@@ -35,3 +35,16 @@ git diff HEAD
 // shows the diff between your last commit and changes to be committed next
 git diff --cached
 ```
+
+
+<div class="related_posts_block">
+    <h3>Related posts:</h3>
+
+    <ul>
+        <li>
+            <a href="https://mirakmalsulton.github.io/notes/2019/08/14/git-reset-hard">
+                git reset hard
+            </a>
+        </li>
+    </ul>
+</div>
