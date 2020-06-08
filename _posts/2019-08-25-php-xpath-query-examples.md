@@ -66,3 +66,36 @@ function xParser($html, $pattern)
     return $results;
 }
 ```
+
+
+<div class="related_posts_block">
+    <h3>Related posts:</h3>
+
+    <ul>
+        <li>
+            <a href="https://mirakmalsulton.github.io/notes/2019/08/19/php-preg_replace-examples">
+                php preg_replace examples
+            </a>
+        </li>
+        <li>
+            <a href="https://mirakmalsulton.github.io/notes/2019/08/19/php-preg_match-examples">
+                php preg_match examples
+            </a>
+        </li>
+        <li>
+            <a href="https://mirakmalsulton.github.io/notes/2019/08/19/php-fopen-example">
+                php fopen example
+            </a>
+        </li>
+		<li>
+            <a href="https://mirakmalsulton.github.io/notes/2019/08/19/php-exec-example">
+                php exec example
+            </a>
+        </li>
+		<li>
+            <a href="https://mirakmalsulton.github.io/notes/2019/08/16/php-strpos-example">
+                php strpos example
+            </a>
+        </li>
+    </ul>
+</div>

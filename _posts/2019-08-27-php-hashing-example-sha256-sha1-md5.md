@@ -28,3 +28,36 @@ echo hash('md5', $password);
 // output
 // db5f2f392736771a631bb2a8066d5d6e
 ```
+
+
+<div class="related_posts_block">
+    <h3>Related posts:</h3>
+
+    <ul>
+        <li>
+            <a href="https://mirakmalsulton.github.io/notes/2019/08/25/php-config-file-location">
+                php config file location
+            </a>
+        </li>
+        <li>
+            <a href="https://mirakmalsulton.github.io/notes/2019/08/25/php-xpath-query-examples">
+                php xpath query examples
+            </a>
+        </li>
+        <li>
+            <a href="https://mirakmalsulton.github.io/notes/2019/08/25/php-scandir-example">
+                php scandir example
+            </a>
+        </li>
+		<li>
+            <a href="https://mirakmalsulton.github.io/notes/2019/08/24/php-usort-example">
+                php usort example
+            </a>
+        </li>
+		<li>
+            <a href="https://mirakmalsulton.github.io/notes/2019/08/24/php-move_uploaded_file-example">
+                php move_uploaded_file example
+            </a>
+        </li>
+    </ul>
+</div>

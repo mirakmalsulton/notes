@@ -36,3 +36,36 @@ Output should be something like this
 ```code
 Loaded Configuration File => /etc/php/7.2/cli/php.ini
 ```
+
+
+<div class="related_posts_block">
+    <h3>Related posts:</h3>
+
+    <ul>
+        <li>
+            <a href="https://mirakmalsulton.github.io/notes/2019/08/15/php-change-file-permissions">
+                php change file permissions
+            </a>
+        </li>
+        <li>
+            <a href="https://mirakmalsulton.github.io/notes/2019/08/15/php-chmod">
+                php chmod
+            </a>
+        </li>
+        <li>
+            <a href="https://mirakmalsulton.github.io/notes/2019/08/15/php-chgrp">
+                php chgrp
+            </a>
+        </li>
+		<li>
+            <a href="https://mirakmalsulton.github.io/notes/2019/08/15/php-chown">
+                php chown
+            </a>
+        </li>
+		<li>
+            <a href="https://mirakmalsulton.github.io/notes/2019/08/10/php-get-file-size">
+                php get file size
+            </a>
+        </li>
+    </ul>
+</div>

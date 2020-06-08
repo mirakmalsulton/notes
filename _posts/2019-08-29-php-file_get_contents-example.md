@@ -21,3 +21,36 @@ echo $content;
 // output
 // content of file
 ```
+
+
+<div class="related_posts_block">
+    <h3>Related posts:</h3>
+
+    <ul>
+        <li>
+            <a href="https://mirakmalsulton.github.io/notes/2019/08/15/php-chmod">
+                php chmod
+            </a>
+        </li>
+        <li>
+            <a href="https://mirakmalsulton.github.io/notes/2019/08/15/php-chgrp">
+                php chgrp
+            </a>
+        </li>
+        <li>
+            <a href="https://mirakmalsulton.github.io/notes/2019/08/15/php-chown">
+                php chown
+            </a>
+        </li>
+		<li>
+            <a href="https://mirakmalsulton.github.io/notes/2019/08/10/php-get-file-size">
+                php get file size
+            </a>
+        </li>
+		<li>
+            <a href="https://mirakmalsulton.github.io/notes/2019/08/10/php-get-current-working-directory">
+                php get current working directory
+            </a>
+        </li>
+    </ul>
+</div>

@@ -37,3 +37,36 @@ Drop foreign key
 ```php
 $this->dropForeignKey('fk-categoryId', 'book');
 ```
+
+
+<div class="related_posts_block">
+    <h3>Related posts:</h3>
+
+    <ul>
+        <li>
+            <a href="https://mirakmalsulton.github.io/notes/2019/08/07/yii2-form-validation-rules-length">
+                yii2 form validation rules length
+            </a>
+        </li>
+        <li>
+            <a href="https://mirakmalsulton.github.io/notes/2019/08/07/yii2-disable-html-encode-example">
+                yii2 disable html encode example
+            </a>
+        </li>
+        <li>
+            <a href="https://mirakmalsulton.github.io/notes/2019/08/30/yii2-activeform">
+                yii2 activeform
+            </a>
+        </li>
+		<li>
+            <a href="https://mirakmalsulton.github.io/notes/2019/08/30/yii2-migration-foreign-key">
+                yii2 migration foreign key
+            </a>
+        </li>
+		<li>
+            <a href="https://mirakmalsulton.github.io/notes/2019/08/30/yii2-andfilterwhere">
+                yii2 andfilterwhere
+            </a>
+        </li>
+    </ul>
+</div>
