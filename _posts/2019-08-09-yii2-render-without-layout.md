@@ -5,8 +5,7 @@ title: Yii2 - render view without layout
 <h1 class="header">Yii2 - render view without layout</h1>
 
 <p>
-	You have to use "renderPartial" to exclude layout from view.<br>
-	But "renderPartial" prevents loading asset files like css and js.<br>
+	You have to use "renderPartial" to exclude layout from view. But "renderPartial" prevents loading asset files like css and js.<br>
 	Take a look at the example below.
 </p>
 
