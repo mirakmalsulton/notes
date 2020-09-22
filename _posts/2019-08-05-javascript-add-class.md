@@ -11,13 +11,13 @@ title: Javascript - add class
 document.getElementById("hello").classList.add("class_name");
 ```
 
-gaga 9
+gaga 10
 
 <script>
 
 let pattern = /\d{4}\/\d{2}\/\d{2}\//;
 let res = window.location.href.replace(pattern, '');
-document.querySelector('link[rel="canonical"]').href = window.location.href.replace(pattern, '')
+document.querySelector('link[rel="canonical"]').href = window.location.href.replace(pattern, '');
 </script>
 
 zaza
