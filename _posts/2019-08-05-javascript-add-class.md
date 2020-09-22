@@ -11,10 +11,10 @@ title: Javascript - add class
 document.getElementById("hello").classList.add("class_name");
 ```
 
-gaga hgfhfg
+gaga 1
 
 {% capture change_url %}
-  {% assign url = {{ page.url | match_regex: "a" }} %}
+  {% assign url = {{ page.url | remove: [html] }} %}
   {{ url }}
 {% endcapture %}
 
