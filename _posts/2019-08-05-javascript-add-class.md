@@ -11,11 +11,6 @@ title: Javascript - add class
 document.getElementById("hello").classList.add("class_name");
 ```
 
-27
-ddd = {{ changed_url }}
-
-asd = {{ page.url | replace: :year,'bar' }}
-
 <div class="related_posts_block">
     <h3>Related posts:</h3>
 
