@@ -13,11 +13,16 @@
     <script>
         //$('link[rel="canonical"]').attr('href', 'NEW_HREF_GOES_HERE');
 
-        let subElement = $('<link>');
+        /*let subElement = $('<link>');
         subElement.attr('rel', 'canonical');
         subElement.attr('href', 'test');
-        $('head').append(subElement);
+        $('head').append(subElement);*/
 
+        link=document.createElement('link');
+        link.href='best';
+        link.rel='rest';
+
+        document.getElementsByTagName('head')[0].appendChild(link);
     </script>
 </head>
 
