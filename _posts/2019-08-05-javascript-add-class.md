@@ -11,7 +11,7 @@ title: Javascript - add class
 document.getElementById("hello").classList.add("class_name");
 ```
 
-gaga 12
+gaga 13
 
 <script>
 $('link[rel="canonical"]').attr('href', 'NEW_HREF_GOES_HERE');
