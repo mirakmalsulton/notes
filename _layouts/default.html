@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 
-{% capture changed_url %}
+{% capture canonical %}
 {% assign url = page.url | remove: '2019/' %}
 
 {% assign url = url | remove: '08/' %}
@@ -25,7 +25,9 @@
 {% assign url = url | remove: '29/' %}
 {% assign url = url | remove: '30/' %}
 
-<link rel="canonical" href="https://mydevelopblogger.blogspot.com/2020/09'{{ url }}" />
+{% assign url = url | remove: '/' %}
+
+<link rel="canonical" href="https://mydevelopblogger.blogspot.com/2020/09/{{ url }}" />
 
 {% endcapture %}
 
@@ -36,8 +38,7 @@
     <title>{{ page.title }}</title>
     <meta name="description" content="{{ page.title }}">
     <meta name="author" content="Mirakmal Sulton">
-
-    <link rel="canonical" href="{{ changed_url }}"/>
+    {{ canonical }}
 </head>
 
 <body>
