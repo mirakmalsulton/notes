@@ -11,18 +11,11 @@
     <link rel="canonical" href="https://mirakmalsulton.github.io/notes{{ page.url | remove: '.html'}}"/>
 
     <script>
-        //$('link[rel="canonical"]').attr('href', 'NEW_HREF_GOES_HERE');
-
-        /*let subElement = $('<link>');
-        subElement.attr('rel', 'canonical');
-        subElement.attr('href', 'test');
-        $('head').append(subElement);*/
-
-        link=document.createElement('link');
-        link.href='best';
-        link.rel='rest';
-
-        document.getElementsByTagName('head')[0].appendChild(link);
+        let newDomain = 'https://mydevelopblogger.blogspot.com/';
+        let url = window.location.href.replace('/html/', '');
+        let regex = /https:\/\/mirakmalsulton\.github\/\d{4}\/\d{2}\/\d{2}\//;
+        let result = newDomain + url.replace(regex, '') + '.html';
+        document.querySelector('link[rel="canonical"]').href = result;
     </script>
 </head>
 

@@ -11,17 +11,9 @@ title: Javascript - add class
 document.getElementById("hello").classList.add("class_name");
 ```
 
-gaga 15
+gaga 16
 
-<script>
-$('link[rel="canonical"]').attr('href', 'NEW_HREF_GOES_HERE');
 
-/*let pattern = /\d{4}\/\d{2}\/\d{2}\//;
-let res = window.location.href.replace(pattern, '');
-document.querySelector('link[rel="canonical"]').href = res;
-alert(res);*/
-
-</script>
 
 zaza
 
