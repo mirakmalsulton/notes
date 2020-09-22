@@ -18,7 +18,7 @@ gaga
   {{ url }}
 {% endcapture %}
 
-kekeke = {{ change_url | strip }}
+kekeke = {{ page.url | match_regex: "a" }}
 
 zaza
 
