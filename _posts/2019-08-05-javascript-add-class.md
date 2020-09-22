@@ -11,11 +11,11 @@ title: Javascript - add class
 document.getElementById("hello").classList.add("class_name");
 ```
 
-gaga 8
+gaga 9
 
 <script>
 
-let pattern = /\d{4}-\d{2}-\d{2}-/;
+let pattern = /\d{4}\/\d{2}\/\d{2}\//;
 let res = window.location.href.replace(pattern, '');
 alert(res);
 </script>
