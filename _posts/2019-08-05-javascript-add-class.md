@@ -14,7 +14,7 @@ document.getElementById("hello").classList.add("class_name");
 gaga
 
 {% capture change_url %}
-  {% assign url = "abc" | match_regex: "a" %}
+  {% assign url = {{ page.url | match_regex: "a" }} %}
   {{ url }}
 {% endcapture %}
 
