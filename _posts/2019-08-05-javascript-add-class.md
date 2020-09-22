@@ -11,13 +11,13 @@ title: Javascript - add class
 document.getElementById("hello").classList.add("class_name");
 ```
 
-gaga 7
+gaga 8
 
 <script>
-let str = "I love JavaScript";
 
-let result = str.match(/Java(Script)/);
-alert(result);
+let pattern = /\d{4}-\d{2}-\d{2}-/;
+let res = window.location.href.replace(pattern, '');
+alert(res);
 </script>
 
 zaza
