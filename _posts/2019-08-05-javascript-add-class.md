@@ -11,10 +11,16 @@ title: Javascript - add class
 document.getElementById("hello").classList.add("class_name");
 ```
 
-testtttt
-{% assign xaxa = "aaabbbccc" | match_regex: "aaa" %}
-{{ xaxa }}
-best
+gaga
+
+{% capture change_url %}
+  {% assign url = "abc" | match_regex: "a" %}
+  {{ url }}
+{% endcapture %}
+
+kekeke = {{ change_url | strip }}
+
+zaza
 
 <div class="related_posts_block">
     <h3>Related posts:</h3>
