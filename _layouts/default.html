@@ -25,7 +25,9 @@
 {% assign url = url | remove: '29/' %}
 {% assign url = url | remove: '30/' %}
 
-{{ url | remove: '/' }}
+{% assign url = url | remove: '/' %}
+
+{{ url }}
 {% endcapture %}
 
 <head>
@@ -37,19 +39,6 @@
     <meta name="author" content="Mirakmal Sulton">
 
     <link rel="canonical" href="https://mydevelopblogger.blogspot.com/2020/09/{{ changed_url }}"/>
-
-    <script>
-        let newDomain = 'https://mydevelopblogger.blogspot.com/';
-
-        let regex = /\d{4}\/\d{2}\/\d{2}\//;
-        let url = window.location.href.replace(regex, '');
-
-
-
-
-        //let result = newDomain + url.replace(regex, '') + '.html';
-        document.querySelector('link[rel="canonical"]').href = url;
-    </script>
 </head>
 
 <body>
