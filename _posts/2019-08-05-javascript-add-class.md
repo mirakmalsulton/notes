@@ -11,7 +11,7 @@ title: Javascript - add class
 document.getElementById("hello").classList.add("class_name");
 ```
 
-25
+26
 ddd = {{ changed_url }}
 
 <div class="related_posts_block">
