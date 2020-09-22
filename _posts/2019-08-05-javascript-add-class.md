@@ -12,7 +12,8 @@ document.getElementById("hello").classList.add("class_name");
 ```
 
 test
-{{ "aaabbbccc" | match_regex: "aaa" }}
+{% assign xaxa = "aaabbbccc" | match_regex: "aaa" %}
+{{ xaxa }}
 best
 
 <div class="related_posts_block">
