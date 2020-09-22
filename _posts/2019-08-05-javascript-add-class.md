@@ -14,12 +14,12 @@ document.getElementById("hello").classList.add("class_name");
 gaga 19
 
 {% capture changed_url %}
-  {% assign url = {{ page.url | remove: '2019'}} %}
+  {% assign url = page.url | remove: '2019' %}
 
   {{ url }}
 {% endcapture %}
 
-bbb = {{ changed_url }}
+ccc = {{ changed_url }}
 zaza
 
 <div class="related_posts_block">
