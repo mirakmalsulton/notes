@@ -14,12 +14,33 @@ document.getElementById("hello").classList.add("class_name");
 gaga 19
 
 {% capture changed_url %}
-  {% assign url = page.url | remove: '2019' %}
+  {% assign url = page.url | remove: '2019/' %}
+
+  {% assign url = url | remove: '08/' %}
+  {% assign url = url | remove: '09/' %}
+
+  {% assign url = url | remove: '01/' %}
+  {% assign url = url | remove: '05/' %}
+  {% assign url = url | remove: '06/' %}
+  {% assign url = url | remove: '07/' %}
+  {% assign url = url | remove: '08/' %}
+  {% assign url = url | remove: '09/' %}
+  {% assign url = url | remove: '10/' %}
+  {% assign url = url | remove: '14/' %}
+  {% assign url = url | remove: '15/' %}
+  {% assign url = url | remove: '16/' %}
+  {% assign url = url | remove: '19/' %}
+  {% assign url = url | remove: '20/' %}
+  {% assign url = url | remove: '24/' %}
+  {% assign url = url | remove: '25/' %}
+  {% assign url = url | remove: '27/' %}
+  {% assign url = url | remove: '29/' %}
+  {% assign url = url | remove: '30/' %}
 
   {{ url }}
 {% endcapture %}
 
-ccc = {{ changed_url }}
+ddd = {{ changed_url }}
 zaza
 
 <div class="related_posts_block">
