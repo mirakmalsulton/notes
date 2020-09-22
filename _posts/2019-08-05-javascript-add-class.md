@@ -11,7 +11,9 @@ title: Javascript - add class
 document.getElementById("hello").classList.add("class_name");
 ```
 
+test
 {{ "aaabbbccc" | match_regex: "aaa" }}
+best
 
 <div class="related_posts_block">
     <h3>Related posts:</h3>
