@@ -11,7 +11,7 @@ title: Javascript - add class
 document.getElementById("hello").classList.add("class_name");
 ```
 
-gaga 4
+gaga 5
 
 {% capture change_url %}
   {% assign url = {{ page.url | remove: [html] }} %}
