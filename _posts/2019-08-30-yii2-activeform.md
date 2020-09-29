@@ -4,7 +4,7 @@ title: Yii2 - ActiveForm example
 
 <h1 class="header">Yii2 - ActiveForm example</h1>
 
-<b>ActiveForm with model</b>
+<i>ActiveForm with model</i>
 ```php
 <?php $form = ActiveForm::begin() ?>
 <?= $form->field($model, 'username')->textInput() ?>
@@ -14,34 +14,35 @@ title: Yii2 - ActiveForm example
 ```
 
 
-<b>ActiveForm without model</b>
+<i>ActiveForm with model and custom url</i>
 ```php
-<?= Html::beginForm() ?>
-<b>Username</b>
-<?= Html::input('text', 'LoginForm[username]', null, ['class' => 'form-group form-control']) ?>
-<b>Password</b>
-<?= Html::input('text', 'LoginForm[password]', null, ['class' => 'form-group form-control']) ?>
-<?= Html::submitButton('Login', ['class' => 'btn btn-primary form-group']) ?>
-<?= Html::endForm() ?>
-```
-
-
-<b>ActiveForm custom url</b>
-```php
-<?= Html::beginForm(['site/login'], 'post') ?>
-<b>Username</b>
-<?= Html::input('text', 'LoginForm[username]', null, ['class' => 'form-group form-control']) ?>
-<b>Password</b>
-<?= Html::input('text', 'LoginForm[password]', null, ['class' => 'form-group form-control']) ?>
-<?= Html::submitButton('Login', ['class' => 'btn btn-primary form-group']) ?>
-<?= Html::endForm() ?>
-
-
 <?php $form = ActiveForm::begin(['action' => ['site/login']]) ?>
 <?= $form->field($model, 'username')->textInput() ?>
 <?= $form->field($model, 'password')->passwordInput() ?>
 <?= Html::submitButton('Login', ['class' => 'btn btn-primary', 'name' => 'login-button']) ?>
 <?php ActiveForm::end() ?>
+```
+
+<i>ActiveForm without model</i>
+```php
+<?= Html::beginForm() ?>
+<label>Username</label>
+<?= Html::input('text', 'LoginForm[username]', null, ['class' => 'form-group form-control']) ?>
+<label>Password</label>
+<?= Html::input('text', 'LoginForm[password]', null, ['class' => 'form-group form-control']) ?>
+<?= Html::submitButton('Login', ['class' => 'btn btn-primary form-group']) ?>
+<?= Html::endForm() ?>
+```
+
+<i>ActiveForm without model and custom url</i>
+```php
+<?= Html::beginForm(['site/login'], 'post') ?>
+<label>Username</label>
+<?= Html::input('text', 'LoginForm[username]', null, ['class' => 'form-group form-control']) ?>
+<label>Password</label>
+<?= Html::input('text', 'LoginForm[password]', null, ['class' => 'form-group form-control']) ?>
+<?= Html::submitButton('Login', ['class' => 'btn btn-primary form-group']) ?>
+<?= Html::endForm() ?>
 ```
 
 
