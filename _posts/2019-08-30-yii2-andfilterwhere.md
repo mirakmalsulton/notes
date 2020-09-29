@@ -4,15 +4,29 @@ title: Yii2 - andFilterWhere
 
 <h1 class="header">Yii2 - andFilterWhere</h1>
 
-<div style="color:#555;margin-bottom:30px;">
-    <b>andFilterWhere</b> - Appends WHERE condition to the existing one.
+<div class="bg-info text-light">
+    <b>filterWhere()</b> - ignores search by empty values.<br>
+    When the search is executed by two fields, for example book and author,
+    if the book value is empty then filterWhere() ignores the search by book
+    and the search will be executed only by author
 </div>
 
-
+filterWhere()
 ```php
-$model = Book::find()->where(['status' => 1])->andWhere(['<', 'price', 100])->one();
+$query->filterWhere([
+    'author' => $author,
+    'book' => null,
+]);
 // generated sql query
-// SELECT * FROM `book` WHERE (`status` = 1) AND (`price` < 100)
+// SELECT * FROM `library` WHERE (`author` = $author)
+```
+
+<i>andFilterWhere</i> - Appends WHERE condition to the existing one.
+```php
+$query->where(['author' => $author]);
+$query->andFilterWhere(['book' => $book]);
+// generated sql query
+// SELECT * FROM `library` WHERE (`author` = $author) AND (`book` = $book)
 ```
 
 
