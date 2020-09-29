@@ -19,7 +19,9 @@ $query->filterWhere([
 // SELECT * FROM `library` WHERE (`author` = $author)
 ```
 
-<i>andFilterWhere - Appends WHERE condition to the existing one.</i>
+<i>
+    <b>andFilterWhere()</b> - Appends WHERE condition to the existing one.
+</i>
 ```php
 $query->where(['author' => $author]);
 $query->andFilterWhere(['book' => $book]);
