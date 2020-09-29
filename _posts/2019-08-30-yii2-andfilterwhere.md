@@ -4,14 +4,12 @@ title: Yii2 - andFilterWhere
 
 <h1 class="header">Yii2 - andFilterWhere</h1>
 
-<i class="text-info">
+<i>
     <b>filterWhere()</b> - ignores search by empty values.<br>
     When the search is executed by two fields, for example book and author,
     if the book value is empty then filterWhere() ignores the search by book
     and the search will be executed only by author
 </i>
-
-filterWhere()
 ```php
 $query->filterWhere([
     'author' => $author,
@@ -21,7 +19,7 @@ $query->filterWhere([
 // SELECT * FROM `library` WHERE (`author` = $author)
 ```
 
-<i>andFilterWhere</i> - Appends WHERE condition to the existing one.
+<i>andFilterWhere - Appends WHERE condition to the existing one.</i>
 ```php
 $query->where(['author' => $author]);
 $query->andFilterWhere(['book' => $book]);
