@@ -4,6 +4,8 @@ title: Linux - check if directory exists
 
 <h1 class="header">Linux - check if directory exists</h1>
 
+
+<i>The command below checks if a directory exists and outputs the result to the command line</i>
 ```code
 [ -d /var/www/my_dir ] && echo "Dir exists" || echo "Dir does not exists"
 ```

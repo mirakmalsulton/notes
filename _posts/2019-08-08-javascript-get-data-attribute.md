@@ -4,11 +4,17 @@ title: Javascript - get data attribute
 
 <h1 class="header">Javascript - get data attribute</h1>
 
-```html
-<span id="hello" data-hello="hello world"></span>
-```
+<i>getAttribute</i>
 ```javascript
-var data = document.getElementById('hello').getAttribute('data-hello');
+let data = document.getElementById("hello").getAttribute("data-hello");
+```
+
+<i>
+    <b>dataset</b> property — part of the new HTML5 JavaScript API.
+    It will return a DOMStringMap object of all the selected element's data- attributes.
+</i>
+```javascript
+let data = document.getElementById("hello").dataset.hello;
 ```
 
 
