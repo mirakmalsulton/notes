@@ -4,12 +4,12 @@ title: Yii2 - andFilterWhere
 
 <h1 class="header">Yii2 - andFilterWhere</h1>
 
-<div class="bg-info text-light">
+<i class="text-info">
     <b>filterWhere()</b> - ignores search by empty values.<br>
     When the search is executed by two fields, for example book and author,
     if the book value is empty then filterWhere() ignores the search by book
     and the search will be executed only by author
-</div>
+</i>
 
 filterWhere()
 ```php
