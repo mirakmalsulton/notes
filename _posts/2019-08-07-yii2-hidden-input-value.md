@@ -4,14 +4,19 @@ title: Yii2 - hidden input value
 
 <h1 class="header">Yii2 - hidden input value</h1>
 
-ActiveForm
+<b>You can create a hidden field in two ways</b>
+
+<i>Method 1: inside active form</i>
 ```php
-$form->field($model, 'book')->hiddenInput(['data-attr' => 'any_data'])->label(false);
+<?php $form = ActiveForm::begin() ?>
+<?= $form->field($model, 'book')->hiddenInput(['data-attr' => 'any_data'])->label(false) ?>
+<?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>
+<?php ActiveForm::end() ?>
 ```
 
-Helper html
+<i>Method 2: with html helper</i>
 ```php
-$form->field($model, 'book')->hiddenInput(['data-attr' => 'any_data'])->label(false);
+<?= Html::hiddenInput('name', $value) ?>
 ```
 
 
