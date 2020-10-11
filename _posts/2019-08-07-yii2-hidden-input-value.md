@@ -9,7 +9,7 @@ title: Yii2 - hidden input value
 <i>Method 1: inside active form</i>
 ```php
 <?php $form = ActiveForm::begin() ?>
-<?= $form->field($model, 'book')->hiddenInput(['data-attr' => 'any_data'])->label(false) ?>
+<?= $form->field($model, 'book')->hiddenInput(['value'=> $value])->label(false) ?>
 <?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>
 <?php ActiveForm::end() ?>
 ```
