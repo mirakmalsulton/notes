@@ -4,7 +4,7 @@ title: Yii2 - hidden input value
 
 <h1 class="header">Yii2 - hidden input value</h1>
 
-<p>You can create a hidden field in two ways</p>
+<p class="mb-3">You can create a hidden field in two ways</p>
 
 <i>Method 1: inside active form</i>
 ```php
