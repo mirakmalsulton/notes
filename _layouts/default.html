@@ -1,5 +1,34 @@
 <!doctype html>
 <html lang="en">
+{% capture canonical %}
+{% assign url = page.url | remove: '2019/' %}
+
+{% assign url = url | remove: '08/' %}
+{% assign url = url | remove: '09/' %}
+
+{% assign url = url | remove: '01/' %}
+{% assign url = url | remove: '05/' %}
+{% assign url = url | remove: '06/' %}
+{% assign url = url | remove: '07/' %}
+{% assign url = url | remove: '08/' %}
+{% assign url = url | remove: '09/' %}
+{% assign url = url | remove: '10/' %}
+{% assign url = url | remove: '14/' %}
+{% assign url = url | remove: '15/' %}
+{% assign url = url | remove: '16/' %}
+{% assign url = url | remove: '19/' %}
+{% assign url = url | remove: '20/' %}
+{% assign url = url | remove: '24/' %}
+{% assign url = url | remove: '25/' %}
+{% assign url = url | remove: '27/' %}
+{% assign url = url | remove: '29/' %}
+{% assign url = url | remove: '30/' %}
+
+{% assign url = url | remove: '/' %}
+
+<link rel="canonical" href="https://shifunotes.blogspot.com/2020/09/{{ url }}" />
+
+{% endcapture %}
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
@@ -7,6 +36,7 @@
     <meta name="description" content="{{ page.title }}">
     <meta name="author" content="Mirakmal Sulton">
     <link rel="canonical" href="https://mirakmalsulton.github.io/notes{{ page.url | remove: '.html'}}"/>
+    {{ canonical }}
 </head>
 
 <body>
